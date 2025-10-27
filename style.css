@@ -1,0 +1,36 @@
+@font-face {
+    font-family: myFont;
+    src: url(https://fonts.bunny.net/css?family=aclonica:400);
+}
+:root {
+    background-color: #420d4b;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    font-family: myFont, sans-serif;
+    font-size: 1.67rem;
+}
+.main, div {
+    display: flex;
+    justify-content: center;
+    gap: 2ch;
+}
+.main {
+    margin-bottom: 4rem;
+}
+label {
+    width: 50%;
+}
+#search {
+    width: 100%;
+    height: 2.7ch;
+    border-radius: .61rem;
+}
+button {
+    border-radius: .52rem;
+    width: 11ch;
+}
+button:active {
+    border: solid 4px black;
+}
